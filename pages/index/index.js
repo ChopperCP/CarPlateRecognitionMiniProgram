@@ -63,7 +63,7 @@ function upload(page, path) {
         }
         page.setData({
           'pic_path':path,
-          'result' : res.data
+          'result' : JSON.parse(res.data)
         })
       },
       fail: function (e) {

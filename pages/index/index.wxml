@@ -8,7 +8,10 @@
   </view>
   <view>
   <text style="margin-top: 0rpx;">
-  {{result}}
+  置信度：{{result[0][0]}}
+  </text>
+  <text>
+  车牌：{{result[0][1]}}
   </text>
   </view>
 
