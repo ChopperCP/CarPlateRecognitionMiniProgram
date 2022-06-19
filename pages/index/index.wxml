@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <view>
+  <button type="primary" bindtap="uploadPhoto">Upload Picture</button>
+  </view>
+  <view style="margin-top: 50rpx;">
+  <image src="{{pic_path}}"></image>
+  </view>
+  <view>
+  <text style="margin-top: 0rpx;">
+  {{result}}
+  </text>
+  </view>
+
+</view>
